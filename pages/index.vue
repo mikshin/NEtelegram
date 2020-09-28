@@ -10,15 +10,11 @@
 import contactList from '../components/contactList'
 import messageContainer from '../components/messageContainer'
 import sassStyles from '../styles/variables.scss'
-import {mapGetters, mapActions} from 'vuex'
 
 export default {
 	name: "app",
 	components: {
 		contactList, messageContainer
-	},
-	async mounted() {
-		fetch('https://mikshin.github.io/NEtelegram/assets/users.txt')
 	},
 }
 

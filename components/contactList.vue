@@ -2,8 +2,8 @@
   <div class="contacts">
     <ul class="contact-list">
       <li class="contact"
-      v-for="post in validPosts" 
-      :key="post.id"
+      v-for="user in getUsers" 
+      :key="user.id"
       @click="checkContact">
         <div class="contact-avatar">
           <picture>
@@ -13,10 +13,10 @@
         </div>
         <div class="contact-container">
           <div class="contact-information">
-            <span class="contact-name">{{ post.name }}</span>
+            <span class="contact-name">{{ user.name }}</span>
             <span class="message-time">10:40</span>
           </div>
-          <div class="contact-last-message"> {{ post.lastMessage }}</div>
+          <div class="contact-last-message"> {{ user.lastMessage }}</div>
         </div>
       </li>
     </ul>
@@ -25,8 +25,7 @@
 </template>
 
 <script>
-import {mapGetters, mapActions} from 'vuex'
-import postForm from '../components/postForm'
+import {mapGetters} from 'vuex'
 
 export default {
   data: function() {
@@ -34,10 +33,10 @@ export default {
       isActive: false
     };
   },
-  components: {
-    postForm
-  },
-  computed: mapGetters(["validPosts","postsCount"]),
+	computed: mapGetters(['getUsers']),
+	async mounted() {
+		this.$store.dispatch('fetchUsers')
+	},
   methods: {
     checkContact(event) {
       let contacts = document.getElementsByClassName("contact")
@@ -56,6 +55,7 @@ export default {
   .contacts {
     height: 100%;
     overflow-y: auto;
+    overflow-x: hidden;
   }
   .contact-list {
     list-style-type: none;
@@ -91,6 +91,7 @@ export default {
     overflow: hidden;
     border-radius:  var(--avatar-size);
     flex-shrink: 0;
+    user-select: none;
     picture {
       width: 100%;
       height: 100%;
@@ -124,6 +125,7 @@ export default {
     font-size: var(--font-size);
     line-height: var(--line-height);
     color: var(--black);
+    user-select: none;
   }
   .contact-name {
     font-weight: bold;
