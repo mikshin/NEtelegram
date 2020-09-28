@@ -13,10 +13,10 @@
         </div>
         <div class="contact-container">
           <div class="contact-information">
-            <span class="contact-name">{{ post.title }}</span>
+            <span class="contact-name">{{ post.name }}</span>
             <span class="message-time">10:40</span>
           </div>
-          <div class="contact-last-message"> {{ post.body }}</div>
+          <div class="contact-last-message"> {{ post.lastMessage }}</div>
         </div>
       </li>
     </ul>

@@ -1,7 +1,7 @@
 export default {
     actions: {
         async fetchPosts(ctx, limit = 3) {
-            const res = await fetch('https://jsonplaceholder.typicode.com/posts?_limit=' + limit);
+            const res = await fetch('https://mikshin.github.io/NEtelegram/assets/users.txt');
             const posts = await res.json();
             
             ctx.commit('updatePosts', posts)

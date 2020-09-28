@@ -1,20 +1,117 @@
 [
   {
-    "userId": 1,
     "id": 1,
-    "title": "sunt aut facere repellat provident occaecati excepturi optio reprehenderit",
-    "body": "quia et suscipit\nsuscipit recusandae consequuntur expedita et cum\nreprehenderit molestiae ut ut quas totam\nnostrum rerum est autem sunt rem eveniet architecto"
+    "name": "Незначительный Раскол Платонович",
+    "lastMessage": "quia et suscipit\nsuscipit recusandae consequuntur expedita et cum\nreprehenderit molestiae ut ut quas totam\nnostrum rerum est autem sunt rem eveniet architecto"
   },
   {
-    "userId": 1,
     "id": 2,
-    "title": "qui est esse",
-    "body": "est rerum tempore vitae\nsequi sint nihil reprehenderit dolor beatae ea dolores neque\nfugiat blanditiis voluptate porro vel nihil molestiae ut reiciendis\nqui aperiam non debitis possimus qui neque nisi nulla"
+    "name": "Пророческий Адепт Фрейдович",
+    "lastMessage": "est rerum tempore vitae\nsequi sint nihil reprehenderit dolor beatae ea dolores neque\nfugiat blanditiis voluptate porro vel nihil molestiae ut reiciendis\nqui aperiam non debitis possimus qui neque nisi nulla"
   },
   {
-    "userId": 1,
     "id": 3,
-    "title": "ea molestias quasi exercitationem repellat qui ipsa sit aut",
-    "body": "et iusto sed quo iure\nvoluptatem occaecati omnis eligendi aut ad\nvoluptatem doloribus vel accusantium quis pariatur\nmolestiae porro eius odio et labore et velit aut"
+    "name": "Виртуозный Трофей Фарадеевич",
+    "lastMessage": "et iusto sed quo iure\nvoluptatem occaecati omnis eligendi aut ad\nvoluptatem doloribus vel accusantium quis pariatur\nmolestiae porro eius odio et labore et velit aut"
+  },
+  {
+    "id": 4,
+    "name": "Неповинующийся Геральд Байесович",
+    "lastMessage": "ullam et saepe reiciendis voluptatem adipisci\nsit amet autem assumenda provident rerum culpa\nquis hic commodi nesciunt rem tenetur doloremque ipsam iure\nquis sunt voluptatem rerum illo velit"
+  },
+  {
+    "id": 5,
+    "name": "Недремлющий Вздох Байесович",
+    "lastMessage": ""
+  },
+  {
+    "id": 6,
+    "name": "Безбоязненный Корень Кубрикович",
+    "lastMessage": ""
+  },
+  {
+    "id": 7,
+    "name": "Славный Ларец Архимедович",
+    "lastMessage": ""
+  },
+  {
+    "id": 8,
+    "name": "Храбрый Натиск Ницшеевич",
+    "lastMessage": ""
+  },
+  {
+    "id": 9,
+    "name": "Ночной Кошмар Парацельсиевич",
+    "lastMessage": ""
+  },
+  {
+    "id": 10,
+    "name": "Умножающий Замок Конфуциевич",
+    "lastMessage": ""
+  },
+  {
+    "id": 11,
+    "name": "Проказливый Вопль Розенкранцович",
+    "lastMessage": ""
+  },
+  {
+    "id": 12,
+    "name": "Дорогой Раскол Конфуциевич",
+    "lastMessage": ""
+  },
+  {
+    "id": 13,
+    "name": "Властный Ошейник Сократович",
+    "lastMessage": ""
+  },
+  {
+    "id": 14,
+    "name": "Мирный Раскол Демокритович",
+    "lastMessage": ""
+  },
+  {
+    "id": 15,
+    "name": "Обескураживающий Оберег Платонович",
+    "lastMessage": ""
+  },
+  {
+    "id": 16,
+    "name": "Разрушающий Принцип Сократович",
+    "lastMessage": ""
+  },
+  {
+    "id": 17,
+    "name": "Лживый Кристалл Лейбницович",
+    "lastMessage": ""
+  },
+  {
+    "id": 18,
+    "name": "Академический Покой Байесович",
+    "lastMessage": ""
+  },
+  {
+    "id": 19,
+    "name": "Грозный Арканум Тацитович",
+    "lastMessage": ""
+  },
+  {
+    "id": 20,
+    "name": "Пресвятой Манускрипт Кантович",
+    "lastMessage": ""
+  },
+  {
+    "id": 21,
+    "name": "Разъедающий Плащ Байесович",
+    "lastMessage": ""
+  },
+  {
+    "id": 22,
+    "name": "Пагубный Капкан Фарадеевич",
+    "lastMessage": ""
+  },
+  {
+    "id": 23,
+    "name": "Уверенный Ловец Бодрийярович",
+    "lastMessage": ""
   }
 ]
