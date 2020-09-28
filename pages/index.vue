@@ -1,18 +1,9 @@
 <template>
-	<!-- <div id="app">
-		<postForm/>
-		<h1>{{postsCount}}</h1>
-		<div class="post" v-for="post in validPosts" :key="post.id">
-            <h2>{{post.title}} {{post.id}}</h2>
-            <p>{{post.body}}</p>
-        </div>
-	</div> -->
-		<div class="main-container">
-			<contactList/>
-			<!-- <button class="resize-button"></button> -->
-			<messageContainer/>
-		</div> 
-
+	<div class="main-container">
+		<contactList/>
+		<!-- <button class="resize-button"></button> -->
+		<messageContainer/>
+	</div> 
 </template>
 
 <script>
@@ -20,18 +11,15 @@ import contactList from '../components/contactList'
 import messageContainer from '../components/messageContainer'
 import sassStyles from '../styles/variables.scss'
 import {mapGetters, mapActions} from 'vuex'
-import postForm from '../components/postForm'
 
 export default {
 	name: "app",
 	components: {
-		contactList, messageContainer, postForm
+		contactList, messageContainer
 	},
-	computed: mapGetters(["validPosts","postsCount"]),
-	methods: mapActions(['fetchPosts']),
 	async mounted() {
-        this.fetchPosts(14);
-    }
+		fetch('https://mikshin.github.io/NEtelegram/assets/users.txt')
+	},
 }
 
 </script>

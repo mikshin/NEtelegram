@@ -22,96 +22,81 @@
   {
     "id": 5,
     "name": "Недремлющий Вздох Байесович",
-    "lastMessage": ""
+    "lastMessage": "repudiandae veniam quaerat sunt sed\nalias aut fugiat sit autem sed est\nvoluptatem omnis possimus esse voluptatibus quis\nest aut tenetur dolor neque"
   },
   {
     "id": 6,
     "name": "Безбоязненный Корень Кубрикович",
-    "lastMessage": ""
+    "lastMessage": "ut aspernatur corporis harum nihil quis provident sequi\nmollitia nobis aliquid molestiae\nperspiciatis et ea nemo ab reprehenderit accusantium quas\nvoluptate dolores velit et doloremque molestiae"
   },
   {
     "id": 7,
     "name": "Славный Ларец Архимедович",
-    "lastMessage": ""
+    "lastMessage": "dolore placeat quibusdam ea quo vitae\nmagni quis enim qui quis quo nemo aut saepe\nquidem repellat excepturi ut quia\nsunt ut sequi eos ea sed quas"
   },
   {
     "id": 8,
     "name": "Храбрый Натиск Ницшеевич",
-    "lastMessage": ""
+    "lastMessage": "dignissimos aperiam dolorem qui eum\nfacilis quibusdam animi sint suscipit qui sint possimus cum\nquaerat magni maiores excepturi\nipsam ut commodi dolor voluptatum modi aut vitae"
   },
   {
     "id": 9,
     "name": "Ночной Кошмар Парацельсиевич",
-    "lastMessage": ""
+    "lastMessage": "consectetur animi nesciunt iure dolore\nenim quia ad\nveniam autem ut quam aut nobis\net est aut quod aut provident voluptas autem voluptas"
   },
   {
     "id": 10,
     "name": "Умножающий Замок Конфуциевич",
-    "lastMessage": ""
+    "lastMessage": "quo et expedita modi cum officia vel magni\ndoloribus qui repudiandae\nvero nisi sit\nquos veniam quod sed accusamus veritatis error"
   },
   {
     "id": 11,
     "name": "Проказливый Вопль Розенкранцович",
-    "lastMessage": ""
+    "lastMessage": "delectus reiciendis molestiae occaecati non minima eveniet qui voluptatibus\naccusamus in eum beatae sit\nvel qui neque voluptates ut commodi qui incidunt\nut animi commodi"
   },
   {
     "id": 12,
     "name": "Дорогой Раскол Конфуциевич",
-    "lastMessage": ""
+    "lastMessage": "itaque id aut magnam\npraesentium quia et ea odit et ea voluptas et\nsapiente quia nihil amet occaecati quia id voluptatem\nincidunt ea est distinctio odio"
   },
   {
     "id": 13,
     "name": "Властный Ошейник Сократович",
-    "lastMessage": ""
+    "lastMessage": "aut dicta possimus sint mollitia voluptas commodi quo doloremque\niste corrupti reiciendis voluptatem eius rerum\nsit cumque quod eligendi laborum minima\nperferendis recusandae assumenda consectetur porro architecto ipsum ipsam"
   },
   {
     "id": 14,
     "name": "Мирный Раскол Демокритович",
-    "lastMessage": ""
+    "lastMessage": "fuga et accusamus dolorum perferendis illo voluptas\nnon doloremque neque facere\nad qui dolorum molestiae beatae\nsed aut voluptas totam sit illum"
   },
   {
     "id": 15,
     "name": "Обескураживающий Оберег Платонович",
-    "lastMessage": ""
+    "lastMessage": "reprehenderit quos placeat\nvelit minima officia dolores impedit repudiandae molestiae nam\nvoluptas recusandae quis delectus\nofficiis harum fugiat vitae"
   },
   {
     "id": 16,
     "name": "Разрушающий Принцип Сократович",
-    "lastMessage": ""
+    "lastMessage": "suscipit nam nisi quo aperiam aut\nasperiores eos fugit maiores voluptatibus quia\nvoluptatem quis ullam qui in alias quia est\nconsequatur magni mollitia accusamus ea nisi voluptate dicta"
   },
   {
     "id": 17,
     "name": "Лживый Кристалл Лейбницович",
-    "lastMessage": ""
+    "lastMessage": "eos voluptas et aut odit natus earum\naspernatur fuga molestiae ullam\ndeserunt ratione qui eos\nqui nihil ratione nemo velit ut aut id quo"
   },
   {
     "id": 18,
     "name": "Академический Покой Байесович",
-    "lastMessage": ""
+    "lastMessage": "eveniet quo quis\nlaborum totam consequatur non dolor\nut et est repudiandae\nest voluptatem vel debitis et magnam"
   },
   {
     "id": 19,
     "name": "Грозный Арканум Тацитович",
-    "lastMessage": ""
+    "lastMessage": "illum quis cupiditate provident sit magnam\nea sed aut omnis\nveniam maiores ullam consequatur atque\nadipisci quo iste expedita sit quos voluptas"
   },
   {
     "id": 20,
     "name": "Пресвятой Манускрипт Кантович",
-    "lastMessage": ""
-  },
-  {
-    "id": 21,
-    "name": "Разъедающий Плащ Байесович",
-    "lastMessage": ""
-  },
-  {
-    "id": 22,
-    "name": "Пагубный Капкан Фарадеевич",
-    "lastMessage": ""
-  },
-  {
-    "id": 23,
-    "name": "Уверенный Ловец Бодрийярович",
-    "lastMessage": ""
+    "lastMessage": "qui consequuntur ducimus possimus quisquam amet similique\nsuscipit porro ipsam amet\neos veritatis officiis exercitationem vel fugit aut necessitatibus totam\nomnis rerum consequatur expedita quidem cumque explicabo"
   }
 ]
