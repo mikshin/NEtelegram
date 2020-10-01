@@ -60,7 +60,7 @@
         <div class="message-list">
             <div class="message"
             v-for="message in getMessages"
-            :key="message.status">
+            :key="message.id">
                 <div class="message-headline">
                     <span class="message-author">{{message.status}}</span>
                     <button class="reply-button">Reply</button>
