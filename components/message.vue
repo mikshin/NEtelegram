@@ -1,7 +1,6 @@
 <template>
     <div class="message-wrapper">
-        <div class="message-list">
-            <!-- потом надо сделать нормальную струкуту и оставить тут только message -->
+        <!-- <div class="message-list">
             <div class="message message--last">
                 <div class="message-headline">
                     <span class="message-author">Микшин Дмитрий</span>
@@ -57,12 +56,50 @@
                     <button class="share-button"></button>
                 </div>
             </div>
+        </div> -->
+        <div class="message-list">
+            <div class="message"
+            v-for="message in getMessages"
+            :key="message.status">
+                <div class="message-headline">
+                    <span class="message-author">{{message.status}}</span>
+                    <button class="reply-button">Reply</button>
+                </div>
+                <p class="message-content">{{message.content}}</p>
+                <div class="message-footer">
+                    <span class="message-time">4:20</span>
+                    <button class="share-button"></button>
+                </div>
+            </div>
         </div>
     </div>
 </template>
 
 <script>
+import {mapGetters} from 'vuex'
 
+export default {
+  data: function() {
+    return {
+      isActive: false
+    };
+  },
+	computed: mapGetters(['getMessages']),
+	async mounted() {
+		this.$store.dispatch('fetchMessages')
+	},
+  methods: {
+    checkContact(event) {
+      let contacts = document.getElementsByClassName("contact")
+      
+      for(let i=0; i<contacts.length; i++ ) {
+        contacts[i].classList.remove("active")
+      }
+
+      event.target.classList.add("active")
+    },
+  }
+}
 </script>
 
 <style lang="scss" >
