@@ -1,56 +1,12 @@
 <template>
     <div class="message-wrapper">
         <!-- <div class="message-list">
-            <div class="message message--last">
+            <div class="message message--incoming message--last">
                 <div class="message-headline">
                     <span class="message-author">Микшин Дмитрий</span>
                     <button class="reply-button">Reply</button>
                 </div>
                 <p class="message-content">Не хотелось бы писать тут </p>
-                <div class="message-footer">
-                    <span class="message-time">4:20</span>
-                    <button class="share-button"></button>
-                </div>
-            </div>
-            <div class="message message--incoming message--last">
-                <div class="message-headline">
-                    <span class="message-author">Микшин Дмитрий</span>
-                    <button class="reply-button">Reply</button>
-                </div>
-                <p class="message-content">Не хотелось бы писать тут лорем ипсум, но походу придется</p>
-                <div class="message-footer">
-                    <span class="message-time">4:20</span>
-                    <button class="share-button"></button>
-                </div>
-            </div>
-            <div class="message">
-                <div class="message-headline">
-                    <span class="message-author">Микшин Дмитрий</span>
-                    <button class="reply-button">Reply</button>
-                </div>
-                <p class="message-content">Не хотелось бы писать тут лорем ипсум, но походу придется Не хотелось бы писать тут лорем ипсум, но походу придетс</p>
-                <div class="message-footer">
-                    <span class="message-time">4:20</span>
-                    <button class="share-button"></button>
-                </div>
-            </div>
-            <div class="message message--last">
-                <div class="message-headline">
-                    <span class="message-author">Микшин Дмитрий</span>
-                    <button class="reply-button">Reply</button>
-                </div>
-                <p class="message-content">Не хотелось бы писать но походу придется Не хотелось бы писать тут лорем ипсум, но походу придется Не хотелось бы писать тут лорем ипсум, но походу придется</p>
-                <div class="message-footer">
-                    <span class="message-time">4:20</span>
-                    <button class="share-button"></button>
-                </div>
-            </div>
-            <div class="message message--incoming message--last">
-                <div class="message-headline">
-                    <span class="message-author">Микшин Дмитрий</span>
-                    <button class="reply-button">Reply</button>
-                </div>
-                <p class="message-content">Не хотелось бы писать тут лорем ипсум, но походу придется Не хотелось бы писать тут лорем ипсум, но походу придется</p>
                 <div class="message-footer">
                     <span class="message-time">4:20</span>
                     <button class="share-button"></button>
