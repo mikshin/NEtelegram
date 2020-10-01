@@ -56,6 +56,15 @@ export default {
     height: 100%;
     overflow-y: auto;
     overflow-x: hidden;
+    &::-webkit-scrollbar {
+      width: 4px;
+      height: 4px;
+      background-color: #FFFFFF;
+    }
+    &::-webkit-scrollbar-thumb { 
+      border-radius: 2px;
+      background-color: #d1d1d1;
+    }
   }
   .contact-list {
     list-style-type: none;

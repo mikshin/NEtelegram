@@ -77,12 +77,22 @@
     display: flex;
     flex: 1;
     height: 100%;
+    &::-webkit-scrollbar {
+      width: 4px;
+      height: 4px;
+      background-color: #FFFFFF;
+    }
+    &::-webkit-scrollbar-thumb { 
+      border-radius: 2px;
+      background-color: #d1d1d1;
+    }
 }
 .message-list {
     height: 100%;
     width: 100%;
     display: flex;
     flex-direction: column;
+    
 }
 .message {
     max-width: 80%; 
