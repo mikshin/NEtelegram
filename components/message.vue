@@ -16,9 +16,10 @@
         <div class="message-list">
             <div class="message"
             v-for="message in getMessages"
-            :key="message.id">
+            :key="message.id"
+            v-bind:class="{'message--incoming' : message.status == 'i','message--last' : checkLastMessage}">
                 <div class="message-headline">
-                    <span class="message-author">{{message.status}}</span>
+                    <span class="message-author"></span>
                     <button class="reply-button">Reply</button>
                 </div>
                 <p class="message-content">{{message.content}}</p>
@@ -54,6 +55,9 @@ export default {
 
       event.target.classList.add("active")
     },
+  },
+  checkLastMessage(event) {
+    //   console.log('test')
   }
 }
 </script>
