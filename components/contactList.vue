@@ -2,6 +2,7 @@
   <div class="contacts">
     <ul class="contact-list">
       <li class="contact"
+      v-bind:id="user.id"
       v-for="user in getUsers" 
       :key="user.id"
       @click="checkContact">
@@ -28,11 +29,6 @@
 import {mapGetters} from 'vuex'
 
 export default {
-  data: function() {
-    return {
-      isActive: false
-    };
-  },
 	computed: mapGetters(['getUsers']),
 	async mounted() {
 		this.$store.dispatch('fetchUsers')
@@ -41,10 +37,10 @@ export default {
     checkContact(event) {
       let contacts = document.getElementsByClassName("contact")
       
-      for(let i=0; i<contacts.length; i++ ) {
-        contacts[i].classList.remove("active")
+      for(var contact of contacts) {
+        contact.classList.remove("active")
       }
-
+      
       event.target.classList.add("active")
     },
   }

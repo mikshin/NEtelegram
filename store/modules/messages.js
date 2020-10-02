@@ -1,7 +1,7 @@
 export default {
     actions: {
-        async fetchMessages(ctx) {
-            const res = await fetch('https://mikshin.github.io/NEtelegram/assets/messageStorage/messages@1.txt');
+        async fetchMessages(ctx, userId = '1') {
+            const res = await fetch('https://mikshin.github.io/NEtelegram/assets/messageStorage/messages@' + userId + '.txt');
             const messages = await res.json();
             
             ctx.commit('updateMessages', messages)

@@ -1,30 +1,21 @@
 <template>
     <div class="message-wrapper">
-        <!-- <div class="message-list">
-            <div class="message message--incoming message--last">
-                <div class="message-headline">
-                    <span class="message-author">Микшин Дмитрий</span>
-                    <button class="reply-button">Reply</button>
-                </div>
-                <p class="message-content">Не хотелось бы писать тут </p>
-                <div class="message-footer">
-                    <span class="message-time">4:20</span>
-                    <button class="share-button"></button>
-                </div>
-            </div>
-        </div> -->
         <div class="message-list">
             <div class="message"
             v-for="message in getMessages"
             :key="message.id"
-            v-bind:class="{'message--incoming' : message.status == 'i','message--last' : checkLastMessage}">
+            v-bind:class="{
+                'message--incoming' : message.incoming,
+                'message--unread' : message.unread,
+                'message--last' : message.last
+            }">
                 <div class="message-headline">
                     <span class="message-author"></span>
                     <button class="reply-button">Reply</button>
                 </div>
                 <p class="message-content">{{message.content}}</p>
                 <div class="message-footer">
-                    <span class="message-time">4:20</span>
+                    <span class="message-time">{{message.time}}</span>
                     <button class="share-button"></button>
                 </div>
             </div>
@@ -96,14 +87,14 @@ export default {
     position: relative;
     padding: var(--margin-small);
     margin: var(--margin-small);
-    margin-left: calc(var(--margin-small) + var(--margin-small));
-    margin-right: auto;
+    margin-right: calc(var(--margin-small) + var(--margin-small));
+    margin-left: auto;
     background-color: #fff;
     border-radius: 8px;
 
     &.message--incoming {
-        margin-left: auto;
-        margin-right: calc(var(--margin-small) + var(--margin-small));
+        margin-left: calc(var(--margin-small) + var(--margin-small));
+        margin-right: auto;
     }
 
     &.message--last {
@@ -127,14 +118,14 @@ export default {
             background-color: var(--light-blue);
             border-radius: 24px;
         }
-        &:not(.message--incoming) {
+        &.message--incoming {
             border-bottom-left-radius: 0;
             &:before,
             &:after {
                 left: 0;
             }
         }
-        &.message--incoming {
+        &:not(.message--incoming) {
             border-bottom-right-radius: 0;
             &:before,
             &:after {
